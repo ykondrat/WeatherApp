@@ -1,0 +1,11 @@
+export const types = Object.freeze({
+    // Async
+    INITIALIZE_ASYNC: 'INITIALIZE_ASYNC',
+
+    // Sync
+    INITIALIZE:        'INITIALIZE',
+    START_FETCHING:    'START_FETCHING',
+    STOP_FETCHING:     'STOP_FETCHING',
+    SET_ERROR_MESSAGE: 'SET_ERROR_MESSAGE',
+    SET_TIME_OF_DAY:   'SET_TIME_OF_DAY',
+});
